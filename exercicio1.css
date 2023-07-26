@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(138, 199, 248, 0.932);
+    font: normal 15pt Arial;        /* "normal" é o valor da propriedade font-weight e define a espessura da fonte como normal (não negrito). "pt" é o valor da propriedade font-size e define o tamanho da fonte como 15 pontos (pt). "arial" é o valor da propriedade font-family e especifica o tipo de fonte a ser usada */
+}
+h1 {
+    text-align: center;             /* alinhamento do texto */
+}
+section {
+    background-color: rgb(255, 255, 255); /* cor de fundo para visualização */
+    border-radius: 10px;            /* define bordas arredondadas, por meio da mudança do raio da borda */
+    padding: 30px;                  /* permite adicionar espaço entre o conteúdo de um elemento e suas bordas */
+    width: 400px;                   /* largura */
+    height: 300px;                  /* altura */ 
+    margin: auto;                   /* é usada para centralizar horizontalmente um elemento dentro do seu contêiner pai */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.904); /* define uma sombreamento para a seção. 1°valor= deslocamento horizontal. 2°valor= deslocamento vertical. 3°valor= espalhamento. */
+}
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Você também pode usar unidades diferentes para especificar as propriedades, como pixels (px), porcentagem (%), em (relativo ao tamanho da fonte) e assim por diante.*/
